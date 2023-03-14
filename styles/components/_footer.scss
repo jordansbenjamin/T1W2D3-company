@@ -1,0 +1,38 @@
+@import "../defaults/color";
+@import "./utils";
+@import "../defaults/breakpoint";
+
+footer {
+	@include background-stuff();
+
+	.social-media {
+		display: flex;
+		justify-content: space-around;
+
+		margin-bottom: 24px;
+
+		a {
+			i {
+				color: $secondary-color;
+				font-size: 24px;
+			}
+		}
+	}
+
+	.info {
+		color: $secondary-color;
+
+		p {
+			margin: 5px 0px;
+		}
+	}
+}
+
+@media screen and (min-width: $medium-br) {
+	footer {
+		.social-media {
+			width: 50%;
+			margin: 0 auto;
+		}
+	}
+}
