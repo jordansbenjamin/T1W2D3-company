@@ -7,7 +7,7 @@ This is a portfolio website for displaying the services that coder academy provi
 ## Components
 
 ---
-## Header
+### Header
 Header has logo and name of the company along with the navigation bar. Here is the code for the header we created:
 
 ```html
@@ -28,3 +28,19 @@ Header has logo and name of the company along with the navigation bar. Here is t
 		</header>
 ```
 
+### Footer
+Footer has social media links, contact number and address. Here is the code that we created:
+
+```html
+<footer>
+			<div class="social-media">
+				<a href=""><i class="fa-brands fa-github"></i></a>
+				<a href=""><i class="fa-brands fa-linkedin"></i></a>
+				<a href=""><i class="fa-brands fa-instagram"></i></a>
+			</div>
+			<div class="info">
+				<p>Contact: 0404004044</p>
+				<p>Address: 1 Street St, Suburb</p>
+			</div>
+		</footer>
+```
